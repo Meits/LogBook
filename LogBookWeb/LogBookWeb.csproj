@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.3" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Logbook.Abstractions\Logbook.Abstractions.csproj" />
+    <ProjectReference Include="..\Logbook.AppContext\Logbook.AppContext.csproj" />
+    <ProjectReference Include="..\Logbook.BLL\Logbook.BLL.csproj" />
+    <ProjectReference Include="..\Logbook.Entities\Logbook.Entities.csproj" />
+    <ProjectReference Include="..\Logbook.Repositories\Logbook.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

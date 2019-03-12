@@ -1,0 +1,12 @@
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Entities\bin\Debug\netcoreapp2.2\Logbook.Entities.deps.json
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Entities\bin\Debug\netcoreapp2.2\Logbook.Entities.dll
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Entities\obj\Debug\netcoreapp2.2\Logbook.Entities.csproj.CoreCompileInputs.cache
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Entities\obj\Debug\netcoreapp2.2\Logbook.Entities.AssemblyInfoInputs.cache
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Entities\obj\Debug\netcoreapp2.2\Logbook.Entities.AssemblyInfo.cs
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Entities\obj\Debug\netcoreapp2.2\Logbook.Entities.csprojAssemblyReference.cache
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Entities\bin\Debug\netcoreapp2.2\Logbook.Entities.pdb
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Entities\bin\Debug\netcoreapp2.2\Logbook.Abstractions.dll
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Entities\bin\Debug\netcoreapp2.2\Logbook.Abstractions.pdb
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Entities\obj\Debug\netcoreapp2.2\Logbook.Entities.csproj.CopyComplete
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Entities\obj\Debug\netcoreapp2.2\Logbook.Entities.dll
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Entities\obj\Debug\netcoreapp2.2\Logbook.Entities.pdb

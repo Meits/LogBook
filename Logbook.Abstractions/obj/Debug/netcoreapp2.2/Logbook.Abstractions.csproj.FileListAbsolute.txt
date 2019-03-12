@@ -1,0 +1,9 @@
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Abstractions\obj\Debug\netcoreapp2.2\Logbook.Abstractions.csprojAssemblyReference.cache
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Abstractions\obj\Debug\netcoreapp2.2\Logbook.Abstractions.csproj.CoreCompileInputs.cache
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Abstractions\obj\Debug\netcoreapp2.2\Logbook.Abstractions.AssemblyInfoInputs.cache
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Abstractions\obj\Debug\netcoreapp2.2\Logbook.Abstractions.AssemblyInfo.cs
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Abstractions\bin\Debug\netcoreapp2.2\Logbook.Abstractions.deps.json
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Abstractions\bin\Debug\netcoreapp2.2\Logbook.Abstractions.dll
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Abstractions\bin\Debug\netcoreapp2.2\Logbook.Abstractions.pdb
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Abstractions\obj\Debug\netcoreapp2.2\Logbook.Abstractions.dll
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.Abstractions\obj\Debug\netcoreapp2.2\Logbook.Abstractions.pdb

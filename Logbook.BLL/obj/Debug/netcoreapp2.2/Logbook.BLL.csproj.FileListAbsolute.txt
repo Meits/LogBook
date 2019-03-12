@@ -1,0 +1,9 @@
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.BLL\bin\Debug\netcoreapp2.2\Logbook.BLL.deps.json
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.BLL\bin\Debug\netcoreapp2.2\Logbook.BLL.dll
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.BLL\bin\Debug\netcoreapp2.2\Logbook.BLL.pdb
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.BLL\obj\Debug\netcoreapp2.2\Logbook.BLL.csproj.CoreCompileInputs.cache
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.BLL\obj\Debug\netcoreapp2.2\Logbook.BLL.AssemblyInfoInputs.cache
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.BLL\obj\Debug\netcoreapp2.2\Logbook.BLL.AssemblyInfo.cs
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.BLL\obj\Debug\netcoreapp2.2\Logbook.BLL.dll
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.BLL\obj\Debug\netcoreapp2.2\Logbook.BLL.pdb
+F:\step\asp\dz2\LogBook\LogBookWeb\Logbook.BLL\obj\Debug\netcoreapp2.2\Logbook.BLL.csprojAssemblyReference.cache
