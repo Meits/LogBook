@@ -28,7 +28,7 @@ namespace LogBookWeb
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("MyConnectionString")));
+                options.UseSqlServer(Configuration.GetConnectionString("MyConnectionString"), b => b.MigrationsAssembly("LogBookWeb")));
 
 
             services.AddSingleton<IConfiguration>(Configuration);
