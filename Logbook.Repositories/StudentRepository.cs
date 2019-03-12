@@ -4,7 +4,7 @@ using Logbook.AppContext;
 using Logbook.Entities;
 
 
-namespace MyLogbook.Repositories
+namespace Logbook.Repositories
 {
     public class StudentRepository : DbRepository<Student>, IStudentRepository
     {

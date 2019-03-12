@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MyLogbook.Repositories
+namespace Logbook.Repositories
 {
     public class DbRepository<T> : IDbRepository<T> where T : class, IDbEntity
     {

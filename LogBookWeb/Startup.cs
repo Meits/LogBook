@@ -10,7 +10,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Logbook.AppContext;
 using Logbook.Repositories;
-using MyLogbook.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace LogBookWeb
