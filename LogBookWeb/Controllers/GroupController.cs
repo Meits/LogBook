@@ -98,10 +98,8 @@ namespace Logbook.MVCWebApp.Controllers
             if (ModelState.IsValid)
             {
 
-                if (!await _repository.ChangeItemAsync(item))
-                {
-                    return NotFound();
-                }
+                await _repository.ChangeItemAsync(item);
+
                 return RedirectToAction(nameof(Index));
             }
             return View(item);

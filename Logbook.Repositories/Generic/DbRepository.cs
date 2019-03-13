@@ -41,6 +41,7 @@ namespace Logbook.Repositories
             T changed = await GetItemAsync(item.Id);
             if (changed == null) return false;
             changed = item;
+
             return await SaveChangesAsync() > 0;
 
         }

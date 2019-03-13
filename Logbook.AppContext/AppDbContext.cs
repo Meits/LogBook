@@ -10,6 +10,9 @@ namespace Logbook.AppContext
         public DbSet<Faculty> Faculties { get; set; }
         public DbSet<Group> Groups { get; set; }
         public DbSet<Student> Students { get; set; }
+        public DbSet<Teacher> Teachers { get; set; }
+        public DbSet<AcademicSubject> AcademicSubjects { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
 
         public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options)

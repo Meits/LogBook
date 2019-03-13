@@ -4,38 +4,22 @@ using Logbook.AppContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace LogBookWeb.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190313203407_AddModelsCreate")]
+    partial class AddModelsCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.2.3-servicing-35854")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-            modelBuilder.Entity("Logbook.Entities.AcademicSubject", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<Guid>("TeacherId");
-
-                    b.Property<string>("Title")
-                        .HasColumnName("title")
-                        .HasMaxLength(64);
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("TeacherId");
-
-                    b.ToTable("academic_subjects");
-                });
 
             modelBuilder.Entity("Logbook.Entities.Faculty", b =>
                 {
@@ -53,22 +37,22 @@ namespace LogBookWeb.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("afd50e45-4aed-402f-8c32-572d873a51e2"),
+                            Id = new Guid("08fca569-889f-4a36-9bba-c7a2336cb99e"),
                             Name = "Programming"
                         },
                         new
                         {
-                            Id = new Guid("de9fba0f-61c7-488d-bb81-c5cd842dbe27"),
+                            Id = new Guid("0bea97e5-59b9-4337-bd68-3cee2519f66e"),
                             Name = "System administration and security"
                         },
                         new
                         {
-                            Id = new Guid("ec698e6a-2fff-4745-8722-d6fbad815614"),
+                            Id = new Guid("1763eb18-5f4e-4763-b812-0e799e7c9e2d"),
                             Name = "Disign"
                         },
                         new
                         {
-                            Id = new Guid("45e77b39-ccf4-47a0-859c-745df83929b8"),
+                            Id = new Guid("82281005-1c9d-4d36-9388-0ecdf4701174"),
                             Name = "Base"
                         });
                 });
@@ -89,26 +73,6 @@ namespace LogBookWeb.Migrations
                     b.HasIndex("FacultyId");
 
                     b.ToTable("groups");
-                });
-
-            modelBuilder.Entity("Logbook.Entities.Rating", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<Guid>("AcademicSubjectId");
-
-                    b.Property<string>("Assessment")
-                        .HasColumnName("rating");
-
-                    b.Property<string>("CreatedAt")
-                        .HasColumnName("created_at");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AcademicSubjectId");
-
-                    b.ToTable("ratings");
                 });
 
             modelBuilder.Entity("Logbook.Entities.Student", b =>
@@ -133,45 +97,11 @@ namespace LogBookWeb.Migrations
                     b.ToTable("students");
                 });
 
-            modelBuilder.Entity("Logbook.Entities.Teacher", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("FirstName")
-                        .HasColumnName("firstName")
-                        .HasMaxLength(64);
-
-                    b.Property<string>("LastName")
-                        .HasColumnName("lastName")
-                        .HasMaxLength(64);
-
-                    b.HasKey("Id");
-
-                    b.ToTable("teachers");
-                });
-
-            modelBuilder.Entity("Logbook.Entities.AcademicSubject", b =>
-                {
-                    b.HasOne("Logbook.Entities.Teacher", "Teacher")
-                        .WithMany("AcademicSubjects")
-                        .HasForeignKey("TeacherId")
-                        .OnDelete(DeleteBehavior.Cascade);
-                });
-
             modelBuilder.Entity("Logbook.Entities.Group", b =>
                 {
                     b.HasOne("Logbook.Entities.Faculty", "Faculty")
                         .WithMany("Groups")
                         .HasForeignKey("FacultyId");
-                });
-
-            modelBuilder.Entity("Logbook.Entities.Rating", b =>
-                {
-                    b.HasOne("Logbook.Entities.AcademicSubject", "AcademicSubject")
-                        .WithMany()
-                        .HasForeignKey("AcademicSubjectId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Logbook.Entities.Student", b =>
