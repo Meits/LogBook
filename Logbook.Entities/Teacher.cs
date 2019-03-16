@@ -20,5 +20,10 @@ namespace Logbook.Entities
         public string LastName { get; set; }
 
         public List<AcademicSubject> AcademicSubjects { get; set; }
+
+        public Guid DepartmentId { get; set; }
+
+        public Department Department { get; set; }
+
     }
 }

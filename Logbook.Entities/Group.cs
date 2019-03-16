@@ -14,6 +14,7 @@ namespace Logbook.Entities
         [StringLength(64)]
         public string Name { get; set; }
         public virtual Faculty Faculty { get; set; }
+        public Guid FacultytId { get; set; }
         public virtual List<Student> Students { get; set; }
     }
 }

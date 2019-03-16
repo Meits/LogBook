@@ -19,5 +19,7 @@ namespace Logbook.Entities
         public string LastName { get; set; }
 
         public virtual Group Group { get; set; }
+
+        public Guid GroupId { get; set; }
     }
 }
