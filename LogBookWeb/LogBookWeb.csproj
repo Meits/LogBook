@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
   </ItemGroup>
 
 
@@ -18,6 +19,7 @@
     <ProjectReference Include="..\Logbook.BLL\Logbook.BLL.csproj" />
     <ProjectReference Include="..\Logbook.Entities\Logbook.Entities.csproj" />
     <ProjectReference Include="..\Logbook.Repositories\Logbook.Repositories.csproj" />
+    <ProjectReference Include="..\LogBookWeb.ViewModels\LogBook.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>

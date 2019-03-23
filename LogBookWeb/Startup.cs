@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Logbook.AppContext;
 using Logbook.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Logbook.Repositories.Interfaces;
 
 namespace LogBookWeb
 {
@@ -34,6 +35,7 @@ namespace LogBookWeb
             services.AddTransient<IFacultyRepository, FacultyRepositoty>();
             services.AddTransient<IGroupRepository, GroupRepository>();
             services.AddTransient<IStudentRepository, StudentRepository>();
+            services.AddTransient<ITeacherRepository, TeacherRepository>();
 
 
             services.Configure<CookiePolicyOptions>(options =>

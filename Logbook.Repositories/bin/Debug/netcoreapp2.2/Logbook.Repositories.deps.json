@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v2.2": {
       "Logbook.Repositories/1.0.0": {
         "dependencies": {
+          "LogBook.ViewModels": "1.0.0",
           "Logbook.Abstractions": "1.0.0",
           "Logbook.AppContext": "1.0.0",
           "Logbook.Entities": "1.0.0",
@@ -419,6 +420,23 @@
         "runtime": {
           "Logbook.Entities.dll": {}
         }
+      },
+      "LogBook.ViewModels/1.0.0": {
+        "dependencies": {
+          "Logbook.Entities": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0.0"
+        },
+        "runtime": {
+          "LogBook.ViewModels.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.ViewFeatures.Reference/2.2.0.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Mvc.ViewFeatures.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
       }
     }
   },
@@ -755,6 +773,16 @@
     },
     "Logbook.Entities/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LogBook.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Mvc.ViewFeatures.Reference/2.2.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

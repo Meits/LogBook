@@ -1,0 +1,16 @@
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\bin\Debug\netcoreapp2.2\LogBookWeb.ViewModels.deps.json
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\bin\Debug\netcoreapp2.2\LogBookWeb.ViewModels.dll
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\bin\Debug\netcoreapp2.2\LogBookWeb.ViewModels.pdb
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\bin\Debug\netcoreapp2.2\Logbook.Abstractions.dll
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\bin\Debug\netcoreapp2.2\Logbook.Entities.dll
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\bin\Debug\netcoreapp2.2\Logbook.Entities.pdb
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\bin\Debug\netcoreapp2.2\Logbook.Abstractions.pdb
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\obj\Debug\netcoreapp2.2\LogBookWeb.ViewModels.csprojAssemblyReference.cache
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\obj\Debug\netcoreapp2.2\LogBookWeb.ViewModels.csproj.CoreCompileInputs.cache
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\obj\Debug\netcoreapp2.2\LogBookWeb.ViewModels.AssemblyInfoInputs.cache
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\obj\Debug\netcoreapp2.2\LogBookWeb.ViewModels.AssemblyInfo.cs
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\obj\Debug\netcoreapp2.2\LogBookWeb.ViewModels.csproj.CopyComplete
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\obj\Debug\netcoreapp2.2\LogBookWeb.ViewModels.dll
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb.ViewModels\obj\Debug\netcoreapp2.2\LogBookWeb.ViewModels.pdb

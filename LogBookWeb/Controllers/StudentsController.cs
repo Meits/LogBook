@@ -3,16 +3,19 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Logbook.Entities;
 using Logbook.Repositories;
+using LogBook.ViewModels;
 
 namespace Logbook.MVCWebApp.Controllers
 {
     public class StudentsController : Controller
     {
         private readonly IStudentRepository _repository;
+        private readonly IGroupRepository _repositoryGroup;
 
-        public StudentsController(IStudentRepository repository)
+        public StudentsController(IStudentRepository repository, IGroupRepository repositoryGroup)
         {
             _repository = repository;
+            _repositoryGroup = repositoryGroup;
         }
 
         // GET: Students
@@ -40,9 +43,10 @@ namespace Logbook.MVCWebApp.Controllers
         }
 
         // GET: Students/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            return View();
+            StudentModel model = await _repository.CreateStudent(_repositoryGroup);
+            return View(model);
         }
 
         // POST: Students/Create
@@ -50,12 +54,14 @@ namespace Logbook.MVCWebApp.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("FirstName,LastName,Id")] Student student)
+        public async Task<IActionResult> Create([Bind("FirstName,LastName,GroupId")] StudentModel student)
         {
             if (ModelState.IsValid)
             {
                 student.Id = Guid.NewGuid();
-                await _repository.AddItemAsync(student);
+                await _repository.AddItemAsync(new Student
+                    { FirstName = student.FirstName, LastName = student.LastName, GroupId = student.GroupId }
+                );
 
                 return RedirectToAction(nameof(Index));
             }

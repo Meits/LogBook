@@ -1,4 +1,4 @@
-﻿@model Logbook.Entities.Student
+﻿@model LogBook.ViewModels.StudentModel
 
 @{
     ViewData["Title"] = "Create";
@@ -23,6 +23,12 @@
                 <input asp-for="LastName" class="form-control" />
                 <span asp-validation-for="LastName" class="text-danger"></span>
             </div>
+
+            <div class="form-group">
+                <label asp-for="GroupId" class="control-label"></label>
+                <select asp-for="GroupId" class="form-control" asp-items="Model.GetSelectList()"></select>
+            </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>

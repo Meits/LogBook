@@ -12,6 +12,7 @@
     <ProjectReference Include="..\Logbook.Abstractions\Logbook.Abstractions.csproj" />
     <ProjectReference Include="..\Logbook.AppContext\Logbook.AppContext.csproj" />
     <ProjectReference Include="..\Logbook.Entities\Logbook.Entities.csproj" />
+    <ProjectReference Include="..\LogBookWeb.ViewModels\LogBook.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>

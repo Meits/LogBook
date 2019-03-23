@@ -53,3 +53,10 @@ F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb\obj\Debug\netcoreapp2.2\Razor\View
 F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb\obj\Debug\netcoreapp2.2\Razor\Views\Students\Details.g.cshtml.cs
 F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb\obj\Debug\netcoreapp2.2\Razor\Views\Students\Edit.g.cshtml.cs
 F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb\obj\Debug\netcoreapp2.2\Razor\Views\Students\Index.g.cshtml.cs
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb\obj\Debug\netcoreapp2.2\Razor\Views\Teacher\Create.g.cshtml.cs
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb\obj\Debug\netcoreapp2.2\Razor\Views\Teacher\Delete.g.cshtml.cs
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb\obj\Debug\netcoreapp2.2\Razor\Views\Teacher\Details.g.cshtml.cs
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb\obj\Debug\netcoreapp2.2\Razor\Views\Teacher\Edit.g.cshtml.cs
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb\obj\Debug\netcoreapp2.2\Razor\Views\Teacher\Index.g.cshtml.cs
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb\bin\Debug\netcoreapp2.2\LogBook.ViewModels.dll
+F:\step\asp\dz2\LogBook\LogBookWeb\LogBookWeb\bin\Debug\netcoreapp2.2\LogBook.ViewModels.pdb

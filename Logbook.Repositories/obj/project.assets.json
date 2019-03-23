@@ -814,6 +814,19 @@
         "runtime": {
           "bin/placeholder/Logbook.Entities.dll": {}
         }
+      },
+      "LogBook.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Logbook.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LogBook.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LogBook.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -3104,10 +3117,16 @@
       "type": "project",
       "path": "../Logbook.Entities/Logbook.Entities.csproj",
       "msbuildProject": "../Logbook.Entities/Logbook.Entities.csproj"
+    },
+    "LogBook.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../LogBookWeb.ViewModels/LogBook.ViewModels.csproj",
+      "msbuildProject": "../LogBookWeb.ViewModels/LogBook.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "LogBook.ViewModels >= 1.0.0",
       "Logbook.Abstractions >= 1.0.0",
       "Logbook.AppContext >= 1.0.0",
       "Logbook.Entities >= 1.0.0",
@@ -3153,6 +3172,9 @@
             },
             "F:\\step\\asp\\dz2\\LogBook\\LogBookWeb\\Logbook.Entities\\Logbook.Entities.csproj": {
               "projectPath": "F:\\step\\asp\\dz2\\LogBook\\LogBookWeb\\Logbook.Entities\\Logbook.Entities.csproj"
+            },
+            "F:\\step\\asp\\dz2\\LogBook\\LogBookWeb\\LogBookWeb.ViewModels\\LogBook.ViewModels.csproj": {
+              "projectPath": "F:\\step\\asp\\dz2\\LogBook\\LogBookWeb\\LogBookWeb.ViewModels\\LogBook.ViewModels.csproj"
             }
           }
         }
